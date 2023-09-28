@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Hello bookdown  -- Это первый уровень {#intro}
+=======
+# Hello bookdown  -- Это первый уровень
+>>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 
 All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
 

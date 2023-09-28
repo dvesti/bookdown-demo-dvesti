@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Cross-references {#cross}  
+=======
+# Cross-references {#cross}
+>>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 
 Cross-references make it easier for your readers to find and link to elements in your book.
 
