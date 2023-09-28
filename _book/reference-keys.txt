@@ -1,36 +1,20 @@
 fig:nice-fig
 tab:nice-tab
 eq:binom
-<<<<<<< HEAD
-thm:tri
 about
 usage-как-сделать
 render-book-делаем-книгу
 preview-book-предпросмотр
 intro
-=======
-about-введение
-usage-как-сделать
-render-book-делаем-книгу
-preview-book-предпросмотр
-hello-bookdown-это-первый-уровень
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 a-section-это-секция-второй-уровень
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
 parts
-<<<<<<< HEAD
 citations
 footnotes
 citations-1
 bloks
-=======
-footnotes-and-citations
-footnotes
-citations
-blocks
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 equations
 theorems-and-proofs
 callout-blocks

@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-
-
 `r if (knitr::is_html_output()) '
 # References {-#references}
 '`
-=======
-`r if (knitr::is_html_output()) '
-# References {-#references}
-'`  
-
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559

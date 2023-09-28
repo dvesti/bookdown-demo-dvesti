@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 # Parts {#parts}  
-=======
-# Parts
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 
 You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file. 
 

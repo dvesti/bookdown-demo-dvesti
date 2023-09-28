@@ -1,12 +1,5 @@
 # bookdown-demo-dvesti
 
-<<<<<<< HEAD
-14-21  
-
-15-42 
-
-дома -- 17-25
-=======
 Welcome! Привет!
 
 Русская пэ-дэ-эф-ка тоже получается после компиляции  
@@ -18,7 +11,7 @@ https://dvesti.github.io/bookdown-demo-dvesti/
 
 Проверка связи -- 28-09-2023
 
-***  
+--
 
 14-21  
 
@@ -31,4 +24,4 @@ https://dvesti.github.io/bookdown-demo-dvesti/
 
 Из дома -- 16-47  
 
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
+

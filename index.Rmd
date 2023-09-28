@@ -31,33 +31,21 @@ header-includes:
 site: bookdown::bookdown_site
 ---
 
-<<<<<<< HEAD
-# Пролог {-#preface}  
+# Пролог {-#index}  
 
 Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».  
 
-# About -- Введение {#about}
-=======
-# Пролог {-#index}
-
-Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».  
-
-# About -- Введение {}
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 
 Здесь я напишу Введение или Пролог, или Аннотацию  
 Потом добавлю отступ -- Красной строки для ПДФ-файл (уже добавил)  
 
 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.  
 
+# Введение {#about}
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
-<<<<<<< HEAD
 ## Usage -- Как сделать 
-=======
-## Usage -- Как сделать
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
@@ -65,11 +53,9 @@ Use second-level and higher headings within chapters like: `## A short section` 
 
 The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
 
-<<<<<<< HEAD
+
 ## Render book -- Делаем книгу 
-=======
-## Render book -- Делаем книгу
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
+
 
 You can render the HTML version of this example book without changing anything:
 

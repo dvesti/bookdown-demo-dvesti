@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 # Sharing your book {#share}  
-=======
-# Sharing your book {#share}
->>>>>>> 32ade1210b9b752da66f515f524f9649f80cb559
 
 ## Publishing
 
