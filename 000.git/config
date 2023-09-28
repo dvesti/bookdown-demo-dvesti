@@ -10,6 +10,6 @@
 [remote "origin"]
 	url = https://github.com/dvesti/bookdown-demo-dvesti.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "gh-pages"]
+[branch "main"]
 	remote = origin
-	merge = refs/heads/gh-pages
+	merge = refs/heads/main
