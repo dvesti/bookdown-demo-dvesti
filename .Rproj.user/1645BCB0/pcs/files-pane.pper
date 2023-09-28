@@ -5,8 +5,8 @@
             "ascending": true
         },
         {
-            "columnIndex": 3,
-            "ascending": false
+            "columnIndex": 4,
+            "ascending": true
         }
     ],
     "path": "E:/Sites/R/work/bookdown-demo-dvesti"
