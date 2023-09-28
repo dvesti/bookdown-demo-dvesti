@@ -5,7 +5,3 @@ Lorem Ipsum - это текст-"рыба", часто используемый 
 На этом -- всё!
 
 Увидимся!  
-
-`r if (knitr::is_html_output()) '
-# References {-}
-'`
