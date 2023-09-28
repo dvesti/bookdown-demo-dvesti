@@ -1,37 +1,47 @@
 --- 
-title: "Малая книга"
+title: "Малая книга на Blogdown"
 author: "Егорыч"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
 documentclass: book
-lang: "ru"
-bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+lang: ru
+bibliography:
+- book.bib
+- packages.bib
 description: |
   This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
   set in the _output.yml file.
+  The HTML output format for this example is bookdown::gitbook,
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-mainfont: Georgia
-monofont: "Courier New"
-monofontoptions: "Scale=0.7"
-fontsize: 12pt
+github-repo: "rstudio/bookdown-demo"
+mainfont: Times New Roman
+monofont: Courier New
+monofontoptions: Scale=0.7
 papersize: a4
+fontsize: 12pt
+linestretch: 1.5
 geometry:
-  - top=1in
-  - left=0.7in
-  - right=0.7in
-  - bottom=1in 
-  
-header-includes:  
+- left=3cm
+- right=1.5cm
+- top=2cm
+- bottom=2cm
+header-includes:
 - \usepackage{indentfirst}
 - \setlength\parindent{12.7mm}
-- \pagestyle{plain} # номер страницы внизу по центру   
+- \pagestyle{plain}
+site: bookdown::bookdown_site
 ---
 
-# About -- Пролог
+# Пролог {-}
+
+Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».  
+
+# About -- Введение 
+
+Здесь я напишу Введение или Пролог, или Аннотацию  
+Потом добавлю отступ -- Красной строки для ПДФ-файл (уже добавил)  
+
+Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.  
+
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
