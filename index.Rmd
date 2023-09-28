@@ -31,11 +31,11 @@ header-includes:
 site: bookdown::bookdown_site
 ---
 
-# Пролог {-#index}  
+# Пролог {-#preface}  
 
 Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».  
 
-# About -- Введение 
+# About -- Введение {#about}
 
 Здесь я напишу Введение или Пролог, или Аннотацию  
 Потом добавлю отступ -- Красной строки для ПДФ-файл (уже добавил)  
@@ -45,7 +45,7 @@ Lorem Ipsum - это текст-"рыба", часто используемый 
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
-## Usage -- Как сделать
+## Usage -- Как сделать 
 
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
@@ -53,7 +53,7 @@ Use second-level and higher headings within chapters like: `## A short section` 
 
 The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
 
-## Render book -- Делаем книгу
+## Render book -- Делаем книгу 
 
 You can render the HTML version of this example book without changing anything:
 
