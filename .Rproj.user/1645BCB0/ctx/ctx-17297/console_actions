@@ -1,0 +1,38 @@
+{
+    "type": [
+        2,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1,
+        3,
+        0,
+        1,
+        2
+    ],
+    "data": [
+        "\nR version 4.3.1 (2023-06-16 ucrt) -- \"Beagle Scouts\"\nCopyright (C) 2023 The R Foundation for Statistical Computing\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n",
+        "[Workspace loaded from E:/Sites/R/work/bookdown-demo-dvesti/.RData]\r\n\r\n",
+        "> ",
+        "install.packages(\"tinytex\")",
+        "Error in install.packages : Updating loaded packages\n",
+        "> ",
+        "tinytex::install_tinytex()",
+        "Found 'C:\\Users\\ADMINI~1\\AppData\\Roaming\\TinyTeX\\bin\\windows\\tlmgr.bat', which indicates a LaTeX distribution may have existed in the system.\n",
+        "Continue the installation anyway? (Y/N) ",
+        "install.packages(\"tinytex\")",
+        "> ",
+        "evtools::install_github(\"lcreteig/MPIThemes\") ",
+        "Error in loadNamespace(x) : нет пакета под названием ‘evtools’\n",
+        "> ",
+        "install.packages(\"evtools\")",
+        "Warning in install.packages :\n  package ‘evtools’ is not available for this version of R\n\nA version of this package for your version of R might be available elsewhere,\nsee the ideas at\nhttps://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages\n\nRestarting R session...\n\n"
+    ]
+}
