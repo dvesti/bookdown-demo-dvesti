@@ -1,7 +1,15 @@
 book_filename: "bookdown-demo-dvesti"
+<<<<<<< Updated upstream
 language:
   ui:
     chapter_name: "Глава "
+=======
+
+language:
+  ui:
+    chapter_name: "Глава "
+
+>>>>>>> Stashed changes
 #rmd_files: [
 #  "index.Rmd",
 #  "setup.Rmd",
