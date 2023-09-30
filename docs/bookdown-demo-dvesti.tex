@@ -178,11 +178,11 @@
 
 Lorem Ipsum - это текст-``рыба'', часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной ``рыбой'' для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
 
-\chapter{About -- Пролог}\label{about}
+\chapter{Введение}\label{about}
 
 This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
 
-\section{Usage -- Как сделать}\label{usage-ux43aux430ux43a-ux441ux434ux435ux43bux430ux442ux44c}
+\section{Как сделать}\label{ux43aux430ux43a-ux441ux434ux435ux43bux430ux442ux44c}
 
 Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
 
@@ -190,7 +190,7 @@ Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ shor
 
 The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
 
-\section{Render book -- Делаем книгу}\label{render-book-ux434ux435ux43bux430ux435ux43c-ux43aux43dux438ux433ux443}
+\section{Делаем книгу}\label{ux434ux435ux43bux430ux435ux43c-ux43aux43dux438ux433ux443}
 
 You can render the HTML version of this example book without changing anything:
 
@@ -212,7 +212,7 @@ Or build the book from the R console:
 
 To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
 
-\section{Preview book -- Предпросмотр}\label{preview-book-ux43fux440ux435ux434ux43fux440ux43eux441ux43cux43eux442ux440}
+\section{Предпросмотр}\label{ux43fux440ux435ux434ux43fux440ux43eux441ux43cux43eux442ux440}
 
 As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
 
@@ -222,7 +222,9 @@ As you work, you may start a local server to live preview this HTML book. This p
 \end{Highlighting}
 \end{Shaded}
 
-\chapter{Hello bookdown -- Это первый уровень}\label{intro}
+\chapter{Привет, Bookdown}\label{intro}
+
+Это первый уровень
 
 Добавил атрибут заголовку
 
@@ -230,16 +232,20 @@ Lorem Ipsum - это текст-``рыба'', часто используемы�
 
 All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (\texttt{\#}) per .Rmd file.
 
-\section{A section-- Это секция, второй уровень}\label{a-section-ux44dux442ux43e-ux441ux435ux43aux446ux438ux44f-ux432ux442ux43eux440ux43eux439-ux443ux440ux43eux432ux435ux43dux44c}
+\section{Секции}\label{ux441ux435ux43aux446ux438ux438}
+
+второй уровень
 
 All chapter sections start with a second-level (\texttt{\#\#}) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
 
-\subsection*{An unnumbered section -- Без номера}\label{an-unnumbered-section-ux431ux435ux437-ux43dux43eux43cux435ux440ux430}
-\addcontentsline{toc}{subsection}{An unnumbered section -- Без номера}
+\subsection*{Не пронумерованный}\label{ux43dux435-ux43fux440ux43eux43dux443ux43cux435ux440ux43eux432ux430ux43dux43dux44bux439}
+\addcontentsline{toc}{subsection}{Не пронумерованный}
+
+Без номера
 
 Chapters and sections are numbered by default. To un-number a heading, add a \texttt{\{.unnumbered\}} or the shorter \texttt{\{-\}} at the end of the heading, like in this section.
 
-\chapter{Cross-references}\label{cross}
+\chapter{Перекрестные ссылки}\label{cross}
 
 Cross-references make it easier for your readers to find and link to elements in your book.
 
@@ -326,7 +332,7 @@ temperature & pressure\\
 \end{tabular}
 \end{table}
 
-\chapter{Parts}\label{parts}
+\chapter{Части}\label{parts}
 
 You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file.
 
@@ -336,7 +342,7 @@ Add an unnumbered part: \texttt{\#\ (PART\textbackslash{}*)\ Act\ one\ \{-\}} (f
 
 Add an appendix as a special kind of un-numbered part: \texttt{\#\ (APPENDIX)\ Other\ stuff\ \{-\}} (followed by \texttt{\#\ A\ chapter}). Chapters in an appendix are prepended with letters instead of numbers.
 
-\chapter{Footnotes and citations}\label{citations}
+\chapter{Сноски и цитаты}\label{citations}
 
 \section{Footnotes}\label{footnotes}
 
@@ -351,7 +357,7 @@ Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YA
 
 The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
 
-\chapter{Blocks}\label{blocks}
+\chapter{Блоки}\label{blocks}
 
 \section{Equations}\label{equations}
 
@@ -380,7 +386,7 @@ Read more here \url{https://bookdown.org/yihui/bookdown/markdown-extensions-by-b
 
 The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: \url{https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html}
 
-\chapter{Sharing your book}\label{share}
+\chapter{Рассказать всем о книге}\label{share}
 
 \section{Publishing}\label{publishing}
 
@@ -412,6 +418,8 @@ Or use:
 
 \chapter*{Эпилог}\label{epilog}
 \addcontentsline{toc}{chapter}{Эпилог}
+
+Без Главы
 
 Lorem Ipsum - это текст-``рыба'', часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной ``рыбой'' для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов
 

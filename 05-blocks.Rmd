@@ -1,4 +1,4 @@
-# Blocks  {#blocks}  
+# Блоки  {#blocks}  
 
 ## Equations
 

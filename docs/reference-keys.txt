@@ -1,13 +1,12 @@
 fig:nice-fig
 tab:nice-tab
 eq:binom
-thm:tri
 about
-usage-как-сделать
-render-book-делаем-книгу
-preview-book-предпросмотр
+как-сделать
+делаем-книгу
+предпросмотр
 intro
-a-section-это-секция-второй-уровень
+секции
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
