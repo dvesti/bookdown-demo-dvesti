@@ -3,7 +3,7 @@ title: "Малая книга на Bookdown"
 author: "Егорыч"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-documentclass: book
+documentclass: krantz #book
 lang: "ru"
 bibliography: [book.bib, packages.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
