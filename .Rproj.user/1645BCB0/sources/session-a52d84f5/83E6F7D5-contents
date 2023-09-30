@@ -1,4 +1,0 @@
-blogdown:::serve_site()
-file.edit(".gitignore")
-bookdown::check_content()
-blogdown::check_content()
