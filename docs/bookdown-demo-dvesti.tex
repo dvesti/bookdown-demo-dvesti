@@ -5,7 +5,7 @@
 \documentclass[
   12pt,
   a4paper,
-]{book}
+]{krantz}
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
 \ifPDFTeX
@@ -142,22 +142,22 @@
 
 \title{Малая книга на Bookdown}
 \author{Егорыч}
-\date{2023-09-29}
+\date{2023-09-30}
 
 \usepackage{amsthm}
-\newtheorem{theorem}{Theorem}[chapter]
-\newtheorem{lemma}{Lemma}[chapter]
-\newtheorem{corollary}{Corollary}[chapter]
-\newtheorem{proposition}{Proposition}[chapter]
-\newtheorem{conjecture}{Conjecture}[chapter]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{conjecture}{Conjecture}[section]
 \theoremstyle{definition}
-\newtheorem{definition}{Definition}[chapter]
+\newtheorem{definition}{Definition}[section]
 \theoremstyle{definition}
-\newtheorem{example}{Example}[chapter]
+\newtheorem{example}{Example}[section]
 \theoremstyle{definition}
-\newtheorem{exercise}{Exercise}[chapter]
+\newtheorem{exercise}{Exercise}[section]
 \theoremstyle{definition}
-\newtheorem{hypothesis}{Hypothesis}[chapter]
+\newtheorem{hypothesis}{Hypothesis}[section]
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 \newtheorem*{solution}{Solution}
@@ -165,11 +165,11 @@
 \maketitle
 
 {
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
 \tableofcontents
 }
-\chapter*{Пролог}\label{index}
-\addcontentsline{toc}{chapter}{Пролог}
+\section*{Пролог}\label{index}
+\addcontentsline{toc}{section}{Пролог}
 
 Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».
 
@@ -178,11 +178,11 @@
 
 Lorem Ipsum - это текст-``рыба'', часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной ``рыбой'' для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
 
-\chapter{About -- Пролог}\label{about}
+\section{About -- Пролог}\label{about}
 
 This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
 
-\section{Usage -- Как сделать}\label{usage-ux43aux430ux43a-ux441ux434ux435ux43bux430ux442ux44c}
+\subsection{Usage -- Как сделать}\label{usage-ux43aux430ux43a-ux441ux434ux435ux43bux430ux442ux44c}
 
 Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
 
@@ -190,7 +190,7 @@ Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ shor
 
 The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
 
-\section{Render book -- Делаем книгу}\label{render-book-ux434ux435ux43bux430ux435ux43c-ux43aux43dux438ux433ux443}
+\subsection{Render book -- Делаем книгу}\label{render-book-ux434ux435ux43bux430ux435ux43c-ux43aux43dux438ux433ux443}
 
 You can render the HTML version of this example book without changing anything:
 
@@ -212,7 +212,7 @@ Or build the book from the R console:
 
 To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
 
-\section{Preview book -- Предпросмотр}\label{preview-book-ux43fux440ux435ux434ux43fux440ux43eux441ux43cux43eux442ux440}
+\subsection{Preview book -- Предпросмотр}\label{preview-book-ux43fux440ux435ux434ux43fux440ux43eux441ux43cux43eux442ux440}
 
 As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
 
@@ -222,7 +222,7 @@ As you work, you may start a local server to live preview this HTML book. This p
 \end{Highlighting}
 \end{Shaded}
 
-\chapter{Hello bookdown -- Это первый уровень}\label{intro}
+\section{Hello bookdown -- Это первый уровень}\label{intro}
 
 Добавил атрибут заголовку
 
@@ -230,20 +230,20 @@ Lorem Ipsum - это текст-``рыба'', часто используемы�
 
 All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (\texttt{\#}) per .Rmd file.
 
-\section{A section-- Это секция, второй уровень}\label{a-section-ux44dux442ux43e-ux441ux435ux43aux446ux438ux44f-ux432ux442ux43eux440ux43eux439-ux443ux440ux43eux432ux435ux43dux44c}
+\subsection{A section-- Это секция, второй уровень}\label{a-section-ux44dux442ux43e-ux441ux435ux43aux446ux438ux44f-ux432ux442ux43eux440ux43eux439-ux443ux440ux43eux432ux435ux43dux44c}
 
 All chapter sections start with a second-level (\texttt{\#\#}) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
 
-\subsection*{An unnumbered section -- Без номера}\label{an-unnumbered-section-ux431ux435ux437-ux43dux43eux43cux435ux440ux430}
-\addcontentsline{toc}{subsection}{An unnumbered section -- Без номера}
+\subsubsection*{An unnumbered section -- Без номера}\label{an-unnumbered-section-ux431ux435ux437-ux43dux43eux43cux435ux440ux430}
+\addcontentsline{toc}{subsubsection}{An unnumbered section -- Без номера}
 
 Chapters and sections are numbered by default. To un-number a heading, add a \texttt{\{.unnumbered\}} or the shorter \texttt{\{-\}} at the end of the heading, like in this section.
 
-\chapter{Cross-references}\label{cross}
+\section{Cross-references}\label{cross}
 
 Cross-references make it easier for your readers to find and link to elements in your book.
 
-\section{Chapters and sub-chapters}\label{chapters-and-sub-chapters}
+\subsection{Chapters and sub-chapters}\label{chapters-and-sub-chapters}
 
 There are two steps to cross-reference any heading:
 
@@ -270,7 +270,7 @@ There are two steps to cross-reference any heading:
   \end{itemize}
 \end{enumerate}
 
-\section{Captioned figures and tables}\label{captioned-figures-and-tables}
+\subsection{Captioned figures and tables}\label{captioned-figures-and-tables}
 
 Figures and tables \emph{with captions} can also be cross-referenced from elsewhere in your book using \texttt{\textbackslash{}@ref(fig:chunk-label)} and \texttt{\textbackslash{}@ref(tab:chunk-label)}, respectively.
 
@@ -326,7 +326,7 @@ temperature & pressure\\
 \end{tabular}
 \end{table}
 
-\chapter{Parts}\label{parts}
+\section{Parts}\label{parts}
 
 You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file.
 
@@ -336,13 +336,13 @@ Add an unnumbered part: \texttt{\#\ (PART\textbackslash{}*)\ Act\ one\ \{-\}} (f
 
 Add an appendix as a special kind of un-numbered part: \texttt{\#\ (APPENDIX)\ Other\ stuff\ \{-\}} (followed by \texttt{\#\ A\ chapter}). Chapters in an appendix are prepended with letters instead of numbers.
 
-\chapter{Footnotes and citations}\label{citations}
+\section{Footnotes and citations}\label{citations}
 
-\section{Footnotes}\label{footnotes}
+\subsection{Footnotes}\label{footnotes}
 
 Footnotes are put inside the square brackets after a caret \texttt{\^{}{[}{]}}. Like this one \footnote{This is a footnote.}.
 
-\section{Citations}\label{citations-1}
+\subsection{Citations}\label{citations-1}
 
 Reference items in your bibliography file(s) using \texttt{@key}.
 
@@ -351,9 +351,9 @@ Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YA
 
 The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
 
-\chapter{Blocks}\label{blocks}
+\section{Blocks}\label{blocks}
 
-\section{Equations}\label{equations}
+\subsection{Equations}\label{equations}
 
 Here is an equation.
 
@@ -364,7 +364,7 @@ Here is an equation.
 
 You may refer to using \texttt{\textbackslash{}@ref(eq:binom)}, like see Equation \eqref{eq:binom}.
 
-\section{Theorems and proofs}\label{theorems-and-proofs}
+\subsection{Theorems and proofs}\label{theorems-and-proofs}
 
 Labeled theorems can be referenced in text using \texttt{\textbackslash{}@ref(thm:tri)}, for example, check out this smart theorem \ref{thm:tri}.
 
@@ -376,21 +376,21 @@ and \(a\) and \(b\) denote the lengths of the \textbf{other} two sides, we have
 
 Read more here \url{https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html}.
 
-\section{Callout blocks}\label{callout-blocks}
+\subsection{Callout blocks}\label{callout-blocks}
 
 The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: \url{https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html}
 
-\chapter{Sharing your book}\label{share}
+\section{Sharing your book}\label{share}
 
-\section{Publishing}\label{publishing}
+\subsection{Publishing}\label{publishing}
 
 HTML books can be published online, see: \url{https://bookdown.org/yihui/bookdown/publishing.html}
 
-\section{404 pages}\label{pages}
+\subsection{404 pages}\label{pages}
 
 By default, users will be directed to a 404 page if they try to access a webpage that cannot be found. If you'd like to customize your 404 page instead of using the default, you may add either a \texttt{\_404.Rmd} or \texttt{\_404.md} file to your project root and use code and/or Markdown syntax.
 
-\section{Metadata for sharing}\label{metadata-for-sharing}
+\subsection{Metadata for sharing}\label{metadata-for-sharing}
 
 Bookdown HTML books will provide HTML metadata for social sharing on platforms like Twitter, Facebook, and LinkedIn, using information you provide in the \texttt{index.Rmd} YAML. To setup, set the \texttt{url} for your book and the path to your \texttt{cover-image} file. Your book's \texttt{title} and \texttt{description} are also used.
 
@@ -410,8 +410,8 @@ Or use:
 \end{Highlighting}
 \end{Shaded}
 
-\chapter*{Эпилог}\label{epilog}
-\addcontentsline{toc}{chapter}{Эпилог}
+\section*{Эпилог}\label{epilog}
+\addcontentsline{toc}{section}{Эпилог}
 
 Lorem Ipsum - это текст-``рыба'', часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной ``рыбой'' для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
 
