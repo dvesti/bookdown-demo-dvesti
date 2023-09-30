@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="https://bookdown-demo-dvesti.netlify.app">Малая книга на Bookdown</a></li>
+        <li><a href="https://dvesti.github.io/bookdown-demo-dvesti">Малая книга на Bookdown</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/dvesti/bookdown-demo-dvesti/edit/BRANCH/%s
