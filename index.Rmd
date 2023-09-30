@@ -3,7 +3,7 @@ title: "Малая книга на Bookdown"
 author: "Егорыч"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-documentclass: krantz #book
+documentclass: book
 lang: "ru"
 bibliography: [book.bib, packages.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
@@ -13,7 +13,7 @@ description: |
   The HTML output format for this example is bookdown::gitbook,
   set in the _output.yml file.
 link-citations: yes
-#github-repo: rstudio/bookdown-demo
+github-repo: dvesti/bookdown-demo-dvesti
 mainfont: Georgia
 monofont: "Courier New"
 monofontoptions: "Scale=0.7"
