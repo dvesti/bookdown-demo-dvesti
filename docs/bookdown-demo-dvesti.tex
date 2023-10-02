@@ -20,7 +20,7 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-  \setmainfont[]{Georgia}
+  \setmainfont[]{Scotch Modern}
   \setmonofont[Scale=0.7]{Courier New}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
@@ -40,7 +40,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[top=1in,left=0.7in,right=0.7in,bottom=1in]{geometry}
+\usepackage[top=20mm,left=25mm,right=15mm,bottom=20mm]{geometry}
 \usepackage{color}
 \usepackage{fancyvrb}
 \newcommand{\VerbBar}{|}
@@ -116,7 +116,7 @@
 \babelprovide[main,import]{russian}
 \ifPDFTeX
 \else
-\babelfont{rm}[]{Georgia}
+\babelfont{rm}[]{Scotch Modern}
 \fi
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
@@ -142,7 +142,7 @@
 
 \title{Малая книга на Bookdown}
 \author{Егорыч}
-\date{2023-10-01}
+\date{2023-10-02}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -173,12 +173,18 @@
 
 Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».
 
+\begin{quote}
+\emph{Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».}
+\end{quote}
+
+\emph{\textbf{За день --- 110 км. Ок --- 2169 км}}
+
 Здесь я напишу Введение или Пролог, или Аннотацию
 Потом добавлю отступ -- Красной строки для ПДФ-файл (уже добавил)
 
 Lorem Ipsum - это текст-``рыба'', часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной ``рыбой'' для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
 
-\chapter{Введение}\label{about}
+\chapter{По Золотой Теньке}\label{about}
 
 This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
 

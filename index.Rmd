@@ -14,16 +14,16 @@ description: |
   set in the _output.yml file.
 link-citations: yes
 github-repo: https://github.com/dvesti/bookdown-demo-dvesti
-mainfont: Georgia
+mainfont: Scotch Modern #ScotchModern #Georgia
 monofont: "Courier New"
-monofontoptions: "Scale=0.7"
+monofontoptions: "Scale=0.7" #"Scale=0.7"
 fontsize: 12pt
 papersize: a4
 geometry:
-  - top=1in
-  - left=0.7in
-  - right=0.7in
-  - bottom=1in 
+  - top=20mm #1in
+  - left=25mm #0.7in
+  - right=15mm #0.7in
+  - bottom=20mm #1in 
   
 header-includes:  
 - \usepackage{indentfirst}
@@ -35,13 +35,18 @@ header-includes:
 
 Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я». 
 
+> _Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я»._
+
+_**За день — 110 км. Ок — 2169 км**_  
+
+
 Здесь я напишу Введение или Пролог, или Аннотацию
 Потом добавлю отступ – Красной строки для ПДФ-файл (уже добавил)
 
 Lorem Ipsum - это текст-“рыба”, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной “рыбой” для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.  
 
 
-# Введение {#about}
+# По Золотой Теньке {#about}
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
