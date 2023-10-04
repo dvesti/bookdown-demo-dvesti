@@ -1,0 +1,17 @@
+{
+    "sortOrder": [
+        {
+            "columnIndex": 3,
+            "ascending": false
+        },
+        {
+            "columnIndex": 4,
+            "ascending": false
+        },
+        {
+            "columnIndex": 2,
+            "ascending": false
+        }
+    ],
+    "path": "E:/Sites/R/work/bookdown-demo-dvesti/docs"
+}
