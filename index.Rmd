@@ -31,7 +31,7 @@ header-includes:
 - \pagestyle{plain} # номер страницы внизу по центру   
 ---
 
-# Пролог {-#index}
+# Пролог {#index}
 
 Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я». 
 
@@ -50,7 +50,7 @@ Lorem Ipsum - это текст-“рыба”, часто используем�
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
-## Как сделать
+## Как сделать {#how-todo}
 
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
